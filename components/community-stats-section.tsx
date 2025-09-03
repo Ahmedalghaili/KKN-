@@ -11,7 +11,7 @@ export default function CommunityStatsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           <div className="text-center group">
             <div className="bg-emerald-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
               <MapPin className="h-10 w-10 text-emerald-600" />
@@ -34,14 +34,6 @@ export default function CommunityStatsSection() {
             </div>
             <div className="text-3xl font-bold text-cyan-600 mb-2">50+</div>
             <p className="text-emerald-700/70">Acara Islami</p>
-          </div>
-
-          <div className="text-center group">
-            <div className="bg-amber-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-              <Users className="h-10 w-10 text-amber-600" />
-            </div>
-            <div className="text-3xl font-bold text-amber-600 mb-2">150+</div>
-            <p className="text-emerald-700/70">Keluarga Muslim</p>
           </div>
         </div>
       </div>
